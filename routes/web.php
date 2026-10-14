@@ -37,4 +37,6 @@ Route::post('/login', [AuthController::class, 'authenticate']);
 Route::get('/dashboard', [AuthController::class, 'dashboard'])
     ->middleware('auth');
 
-Route::get('/logout', [AuthController::class, 'logout']);
+Route::post('/logout', [AuthController::class, 'logout'])
+    ->middleware('auth')
+    ->name('logout');
