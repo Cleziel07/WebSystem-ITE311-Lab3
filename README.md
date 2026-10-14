@@ -57,3 +57,28 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Laboratory Exercise 5: Role-Based Dashboard System
+
+### Project Overview
+This project is a Laravel web application developed for ITE311 Laboratory Exercise 5. It includes login and registration features and dashboards for different user roles.
+
+### User Roles
+- Admin
+- Teacher
+- Student
+
+### Features
+- User authentication
+- Password hashing
+- Role-based dashboards
+- Dynamic navigation bar
+- Authentication middleware
+
+### Technologies Used
+- Laravel
+- PHP
+- MySQL
+- Blade Templates
+- Bootstrap
